@@ -1,0 +1,8 @@
+dados = input('Digite algo: ')
+print('seu tipo primitivo eh ', type(dados))
+print('eh numerico: ', dados.isalnum())
+print('eh alfabetico: ', dados.isalpha())
+print('so tem espaço: ', dados.isspace())
+print('esta em letras maiusculas: ', dados.isupper())
+print('esta em letras minusculas: ', dados.islower())
+print('esta capitalizados', dados.istitle())

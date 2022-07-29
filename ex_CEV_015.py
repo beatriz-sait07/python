@@ -1,0 +1,5 @@
+km = float(input('quantidade percorrida em KM: '))
+dia = int(input('quantos dias voce ficou com o carro: '))
+print('voce pagara R$ {}'.format(((60 * dia) + (0.15 * km))))
+print('dias {} = R$ {}'.format(dia, (60 * dia)))
+print('gasolina, total de {}KM = R$ {}'.format(km, (km * 0.15)))
