@@ -1,0 +1,47 @@
+************* CURSO EM VIDEO ***************
+
+---------------bibliotecas--------------------
+* random -> gerador de aleatórios
+* pygame -> utilizados para criar jogos, como jogos tem musicas utilizaremos ele
+
+----------------funções-----------------------
+- random.randint(intervalo dos numeros) -> gera numeros aleatórios
+- random.choice(lista) -> faz uma escolha aleatória entre um dado intervalo, seja ele, nomes, numeros, etc...
+-random.shuffle(lista) -> recebe uma lista, embaralha essa lista, entrega uma lista embaralhada
+
+-pygame.init() -> iniciar a biblioteca pygame
+-pygame.mixer.music.load('nome do arq MP3') -> carregar o mixer que deseja 
+-pygame.mixer.music.play() -> tocas a musica
+pygame.event.wait -> espera a musica terminar de tocar
+
+# cadeias de caracter
+- len(frase) -> comprimento
+- frase.count('o')-> conta quantas vezes tem a - letra determinada pelo () na frase
+- frase.find('o que deseja encontrar') -> busca e mostra onde apareceu o primeiro caracter na frase
+- in #ex: 'curso' in frase -> busca, procura a string desejada dentro de uma string //aparece apenas true/false
+- frase.replace('o que proccura','substituira a procura') -> usado para substituir
+- frase.upper() -> transforma tudo em maiusculo
+- frase.lower() -> transforma tudo em minusulo
+- frase.capitalize() -> transforma tudo em minusco e depois substitui a primeira letra em maiusculo
+- frase.title() analisa as palavras da string e transfoma as iniciais em maiusculo e o restante em minusculo
+- frase.strip() -> remove os espços inuteis, ou seja, os do inicio e os do final
+- frase.rstrip() -> remove os espaços inuteis apenas do lado direito
+- frase.lstrip -> remove os espaços inuteis apenas do lado esquerdo
+- frase.split() -> onde tem espaço ele divide a string, gerando assim uma nova lista a cada divisão
+- 'tipo de separador (ex: "-")'.join -> junta todos os elementos de frase e em suas respectivas separações utiliza o "-"
+
+--------------observações---------------------
+no python voce pode fatiar string...
+|C|u|r|s|o| |e|m| |V| i| d|e |o| |P|y |t |h|o|n|
+ 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16...
+
+ex1: frase[9] -> ele pegará o "V" que é correspondente a casa 9
+ex2: frase[9:13] -> ele pegará do "v ao E" pois o ultimo numero não entra na contagem
+ex3: frase[9:21:2] // [9::3](ex4/inverso)-> le vai pegar os caracter 9 ao 20 e puladr de 2 em 2 "VdoPto"
+ex4: frase[:5] // [5:] (inverso)-> do inicio até a o 5, ou seja, "Curso"
+ex5:frase.count('o',0,13) -> conta as letras 'o' no intervalo entre 0 e 13
+
+* obs [] -> lista (exp mais pra frente)
+* obs :  -> representa o intervalo que deseja
+* obs a lingagem python reconhece a diferença entre maiusculo e minusculo
+

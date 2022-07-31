@@ -1,0 +1,5 @@
+cdd = str(input('qual o nome da sua cidade? \nR:'))
+trans = cdd.lower()
+print('possui o nome "santo" ? ')
+print('santo' in trans)
+print(cdd[:5] == trans)
