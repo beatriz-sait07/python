@@ -31,6 +31,12 @@ pygame.event.wait -> espera a musica terminar de tocar
 - frase.split() -> onde tem espaço ele divide a string, gerando assim uma nova lista a cada divisão
 - 'tipo de separador (ex: "-")'.join -> junta todos os elementos de frase e em suas respectivas separações utiliza o "-"
 
+- if condição.condição():  -> primeira opção
+- else:                    -> segunda condição
+*veja na aula_CEV_10.py
+
+
+
 --------------observações---------------------
 no python voce pode fatiar string...
 |C|u|r|s|o| |e|m| |V| i| d|e |o| |P|y |t |h|o|n|
@@ -51,6 +57,7 @@ ex5:frase.count('o',0,13) -> conta as letras 'o' no intervalo entre 0 e 13
 modulos -> 16 ao 20
 musicas e animações -> 21
 manupulando textos -> 22 ao 27
+condiçoes -> 
 
 
 
