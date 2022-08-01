@@ -15,6 +15,7 @@
 pygame.event.wait -> espera a musica terminar de tocar
 
 # cadeias de caracter
+¨¨exemplos em aula_CEV_09¨¨
 - len(frase) -> comprimento
 - frase.count('o')-> conta quantas vezes tem a - letra determinada pelo () na frase
 - frase.find('o que deseja encontrar') -> busca e mostra onde apareceu o primeiro caracter na frase
@@ -44,4 +45,12 @@ ex5:frase.count('o',0,13) -> conta as letras 'o' no intervalo entre 0 e 13
 * obs [] -> lista (exp mais pra frente)
 * obs :  -> representa o intervalo que deseja
 * obs a lingagem python reconhece a diferença entre maiusculo e minusculo
+
+
+--------------exercicios---------------------
+modulos -> 16 ao 20
+musicas e animações -> 21
+manupulando textos -> 22 ao 27
+
+
 
