@@ -35,6 +35,7 @@ pygame.event.wait -> espera a musica terminar de tocar
 - if condição.condição():  -> primeira opção
 - else:                    -> segunda condição
 *veja na aula_CEV_10.py
+- elif condição.condição(): -> segunda opção (se não)
 
 
 
@@ -71,6 +72,8 @@ ANSI -> cores no terminal
 40 ao 47, usando a mesma sequencia de cores do modo texto
 
 exemplo: \033[0;33;44m 
+
+condiçoes alinhadas
 
 --------------exercicios---------------------
 modulos -> 16 ao 20
