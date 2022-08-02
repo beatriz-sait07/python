@@ -3,6 +3,7 @@
 ---------------bibliotecas--------------------
 * random -> gerador de aleatórios
 * pygame -> utilizados para criar jogos, como jogos tem musicas utilizaremos ele
+* date -> verificação de validades, tbm utuliza o ano atual
 
 ----------------funções-----------------------
 - random.randint(intervalo dos numeros) -> gera numeros aleatórios
@@ -53,11 +54,30 @@ ex5:frase.count('o',0,13) -> conta as letras 'o' no intervalo entre 0 e 13
 * obs a lingagem python reconhece a diferença entre maiusculo e minusculo
 
 
+ANSI -> cores no terminal
+\033["codigo na cor"m
+
+"estilo, texto, back"
+*** para estilo ***
+0 = nada
+1 = negrito
+4 = sublinhado
+7 = negativo
+*** texto ***
+30 = branco, 31 = vermelho 32 = verde
+33 = amarelo, 34 = azul, 35 = roxo
+36 = azul bb, 37 = cinza
+***back/cores de fundo**
+40 ao 47, usando a mesma sequencia de cores do modo texto
+
+exemplo: \033[0;33;44m 
+
 --------------exercicios---------------------
 modulos -> 16 ao 20
 musicas e animações -> 21
 manupulando textos -> 22 ao 27
-condiçoes -> 
+condiçoes -> 28 - 35
+
 
 
 
