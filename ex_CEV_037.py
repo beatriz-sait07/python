@@ -1,4 +1,5 @@
 #transformaçao de bases
+import math
 n = int(input('digite um numero: '))
 base = int(input('escolha um tipo de base: \nBinario -> (1), octal -> (2) ou hexadecimal -> (3)\n'))
 if base == 1:

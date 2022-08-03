@@ -5,3 +5,4 @@ if (r1 + r2) >= r3:
     print('pode formar um triangulo')
 else:
     print('nao pode formar um triangulo')
+    

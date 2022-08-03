@@ -3,7 +3,7 @@
 ---------------bibliotecas--------------------
 * random -> gerador de aleatórios
 * pygame -> utilizados para criar jogos, como jogos tem musicas utilizaremos ele
-* date -> verificação de validades, tbm utuliza o ano atual
+* date -> verificação de validades, tbm utiliza o ano atual
 
 ----------------funções-----------------------
 - random.randint(intervalo dos numeros) -> gera numeros aleatórios
