@@ -5,11 +5,11 @@ at = date.today().year
 print(at - idade)
 if (at - idade) <= 9:
     print('{} categoria mirim'.format(nome))
-elif  9 > (at - idade ) <= 14:
+elif (at - idade ) <= 14:
     print('{} categoria infantil'.format(nome))
-elif 14 > (at - idade ) <= 19:
+elif (at - idade ) <= 19:
     print('{} categoria junior'.format(nome))
-elif 19 > (at - idade ) < 21:
+elif (at - idade ) < 21:
     print('{} categoria senior'.format(nome))
 else:
     print('{} categoria master'.format(nome))
