@@ -10,4 +10,4 @@ elif fp == '4':
     print('R$ {:.2f} a mercadoria contem juros de 20%'.format(preco + (20/100 * preco)))
 else:
     print('numero invalido!')
-    print('------programa finalizado-----')
+    print('{:=^20}'.format(' PROGRAMA FINALIZADO '))
