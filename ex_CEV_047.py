@@ -1,5 +1,4 @@
-print('os multiplos de 3 presentes entre 1 - 500, sao:')
-for mult in range(1, 500):
-    if (mult %3 == 0):
-        print(mult)
-print('fim do programa!')
+print('os multiplos de 2 presentes entre 1 - 50, sao:')
+for mult in range(2, 51, 2):
+        print(mult, end=', ')
+print('\nfim do programa!')
