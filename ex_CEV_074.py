@@ -1,9 +1,11 @@
-import random
-while True:
-    gerador = int(random.randint(0, 10))
-    print(gerador, end=',')
-    if gerador[4] < 10:
-        break
+from random import randint
+gerador = (randint(0, 10), randint(0, 10),
+         randint(0, 10), randint(0, 10))
+print('tuplas: ', end=' ')
+for n in gerador:
+    print(f'{n}', end=' ')
 print('\nfim da tupla aleatoria')
-print(f'o menor valor eh {sorted(gerador[0])}')
-print(f'o maior valor eh {sorted(gerador[10])}')
+'''funcao par o menor valor'''
+print(f'o menor valor eh {min(gerador)}')
+'''funcao para o maior numero'''
+print(f'o maior valor eh {max(gerador)}')
