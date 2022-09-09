@@ -5,7 +5,7 @@ dados = int(input('digite um numero de 0 - 20: '))
 while True:
     print('voce digitou um numero invalido')
     tent = int(input('Digite novamente um numero entre 0 - 20: '))
-    if tent < 0 or tent > 20:
+    if 0 <= tent >= 20:
         break
 print('\ndigito valido!\n')
 print(cont[dados])
