@@ -9,4 +9,3 @@ while True:
         break
 print('\ndigito valido!\n')
 print(cont[dados])
-
