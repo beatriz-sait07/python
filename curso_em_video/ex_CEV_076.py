@@ -5,7 +5,7 @@ mercadorias = ('pao',0.25,
                'ovos', 10.35)
 
 print('-' * 30)
-print('OFERTAS SEMANAIS^30')
+print('OFERTAS SEMANAIS')
 print('-' * 30)
 
 for prod in range(0, len(mercadorias)):
