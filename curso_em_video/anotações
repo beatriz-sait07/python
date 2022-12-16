@@ -36,7 +36,12 @@ pygame.event.wait -> espera a musica terminar de tocar.
 - nome_lista.sort() -- ordena os valores dentro da lista.
 - nome_lista.sort(reverse=True) -- ordena os valores inversamente dentro da lista.
 - len(nome_lista) -- define o tamanho da lista.
-
+ ***listas compostas: lista dentro de lista, ex:
+ pessoa = [['pedro', 26]['maria', 16]['carlos', 32]
+ print(pessoa[0][0]) -> pedro
+ print(pessoa[1][1]) -> 16
+ print(pessoa[2][0]) -> carlos
+ print(pessoa[1]) -> 'maria', 16 
 
 
  #### cadeias de caracter ####
