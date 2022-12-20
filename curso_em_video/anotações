@@ -43,6 +43,12 @@ pygame.event.wait -> espera a musica terminar de tocar.
  print(pessoa[2][0]) -> carlos
  print(pessoa[1]) -> 'maria', 16 
 
+------------- dicionarios ----------------------
+modo de declaracao: dic = {}
+dic.values() -> retornar os valores que foram adicionados dentro do dicionario
+dic.keys() -> retorna as chaves usadas dentro do dicionarios, ex: dic = {'nome' : 'pedro'} -> nome é a chave e pedro é o valor
+dic.items() -> retorna TODOS os dados do dicionario, tanto quanto chaves e valores
+dic.copy() -> copia o conteudo de uma lista
 
  #### cadeias de caracter ####
 ¨¨exemplos em aula_CEV_09¨¨
