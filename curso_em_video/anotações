@@ -13,6 +13,7 @@ ps: em caso de duvidas veja na aula_CEV_10.py.
 * random -> gerador de aleatórios.
 * pygame -> utilizados para criar jogos, como jogos tem musicas utilizaremos ele.
 * date -> verificação de validades, tbm utiliza o ano atual.
+* itemgetter -> ordenar os dicionarios
 
 ----------------funções aleatorias-----------------------
 - random.randint(intervalo dos numeros) -> gera numeros aleatórios.
