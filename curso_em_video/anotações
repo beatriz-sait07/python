@@ -51,6 +51,11 @@ dic.keys() -> retorna as chaves usadas dentro do dicionarios, ex: dic = {'nome' 
 dic.items() -> retorna TODOS os dados do dicionario, tanto quanto chaves e valores
 dic.copy() -> copia o conteudo de uma lista
 
+--------------- funcoes -----------------
+todas as passagens de parametro em python e por referencia
+empacotamento-> def contador(*num), ex: aula 20
+
+
  #### cadeias de caracter ####
 ¨¨exemplos em aula_CEV_09¨¨
 - len(frase) -> comprimento.
@@ -82,12 +87,6 @@ ex5:frase.count('o',0,13) -> conta as letras 'o' no intervalo entre 0 e 13.
 * obs [] -> lista.
 * obs :  -> representa o intervalo que deseja.
 * obs a lingagem python reconhece a diferença entre maiusculo e minusculo.
-
-
-
-
-
-
 
 
 ----------------ANSI -> cores no terminal--------------
