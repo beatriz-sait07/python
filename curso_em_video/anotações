@@ -54,6 +54,11 @@ dic.copy() -> copia o conteudo de uma lista
 --------------- funcoes -----------------
 todas as passagens de parametro em python e por referencia
 empacotamento-> def contador(*num), ex: aula 20
+~~variaveis~~
+dentro da funcao: variavel local
+fora da funcao (no programa principal): variavel global
+ps::: caso exista uma variavel local com o mesmo nome da variavel global, havera duas variais com o mesmo nome e valores distintos **aula21**
+
 
 
  #### cadeias de caracter ####
@@ -73,7 +78,7 @@ empacotamento-> def contador(*num), ex: aula 20
 - frase.split() -> onde tem espaço ele divide a string, gerando assim uma nova lista a cada divisão.
 - 'tipo de separador (ex: "-")'.join -> junta todos os elementos de frase e em suas respectivas separações utiliza o "-".
 
-***observações****
+***************observações*******************
 no python voce pode fatiar string...
 |C|u|r|s|o| |e|m| |V| i| d|e |o| |P|y |t |h|o|n|
  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16...
@@ -88,6 +93,8 @@ ex5:frase.count('o',0,13) -> conta as letras 'o' no intervalo entre 0 e 13.
 * obs :  -> representa o intervalo que deseja.
 * obs a lingagem python reconhece a diferença entre maiusculo e minusculo.
 
+
+ajuda interativa, HELP ()
 
 ----------------ANSI -> cores no terminal--------------
 \033["codigo na cor"m
