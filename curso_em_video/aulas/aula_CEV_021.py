@@ -72,11 +72,9 @@ r1 = somar_return(1, 7)
 r2 = somar_return(4)
 print(f' meus calculos foram: {resp}, {r1} e {r2}')
 
-
-########################################## 
 print('\n\n')
 print('~'*70)
-#--------------------aula pratica----------------------------
+########################################## 
 # mostrando diferenca entre variavel globa e local
 def test(b):
     a = 8 #usa este a dentro da funcao sem interferencia do 'a' global
@@ -89,9 +87,10 @@ def test(b):
 a = 5
 test(a)
 print(f'A fora vale {a}')
+
 print('\n\n')
 print('-='*30)
-
+########################################## 
 # substituindo variavel global, pela variavel local
 def test1(b):
     global a 
@@ -108,3 +107,30 @@ test1(a)
 print(f'apos chamar a funcao:\nA fora vale {a}')
 test1(a)
 
+print('\n\n')
+print('.^.'*30)
+#--------------------aula pratica----------------------------
+def fatorial(num=1):
+    f = 1
+    for c in range(num, 0, -1):
+        f *= c
+    return f
+
+n = int(input('digite um numero: '))
+print(f'o fatorial de {n} eh: {fatorial(n)}')
+
+
+print('\n\n')
+print('-='*30)
+#################################################
+def par_impar(n=0):
+    if n % 2 == 0:
+        return True
+    else:
+        return False
+
+num = int(input('digite um valor: '))
+if par_impar(num):
+    print('par')
+else:
+    print('impar')
