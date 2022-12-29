@@ -64,7 +64,11 @@ focos:  dividir um programa grande
         aumentar a legibilidade
         facilitar a manutencao
 
-        
+vantagem: organizacao
+          facilidade na manutencao
+          ocultacao de codigos detalhado
+          reutilizacao em outros projetos
+          
 
  #### cadeias de caracter ####
 ¨¨exemplos em aula_CEV_09¨¨
