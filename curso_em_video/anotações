@@ -59,7 +59,12 @@ dentro da funcao: variavel local
 fora da funcao (no programa principal): variavel global
 ps::: caso exista uma variavel local com o mesmo nome da variavel global, havera duas variais com o mesmo nome e valores distintos **aula21**
 
+------------- modularizacao ---------
+focos:  dividir um programa grande
+        aumentar a legibilidade
+        facilitar a manutencao
 
+        
 
  #### cadeias de caracter ####
 ¨¨exemplos em aula_CEV_09¨¨
