@@ -68,7 +68,12 @@ vantagem: organizacao
           facilidade na manutencao
           ocultacao de codigos detalhado
           reutilizacao em outros projetos
-          
+
+
+------------- pacotes -------------
+dentro do pacote voce pode fazer uma separacao de funcoes usadas na modularizacao 
+pode-se criar pacote dentro de pacote
+->em duvidas, assista a aula 22
 
  #### cadeias de caracter ####
 ¨¨exemplos em aula_CEV_09¨¨
@@ -122,17 +127,3 @@ ajuda interativa, HELP ()
 40 ao 47, usando a mesma sequencia de cores do modo texto
 
 exemplo: \033[0;33;44m 
-
-
---------------exercicios---------------------
-modulos -> 16 ao 20
-musicas e animações -> 21
-manupulando textos -> 22 ao 27
-condiçoes simples -> 28 - 35
-condições composta -> 36 - 45
-laço -> 46 - 56
-listas -> 
-
-
-
-
