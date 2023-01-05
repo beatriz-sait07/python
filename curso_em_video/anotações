@@ -75,6 +75,22 @@ dentro do pacote voce pode fazer uma separacao de funcoes usadas na modularizaca
 pode-se criar pacote dentro de pacote
 ->em duvidas, assista a aula 22
 
+------------- tratamento de erro --------
+erro: sintax
+excecao: erro sem recorrencia
+
+
+**um try pode ter varios tipos de except
+try:        //obrigatorio
+   operacao
+except:    //obrigatorio
+   falhou
+else:      //opcional
+   deu certo
+finally:   //opcional
+   certo/falha --> sempre ira acontecer
+
+
  #### cadeias de caracter ####
 ¨¨exemplos em aula_CEV_09¨¨
 - len(frase) -> comprimento.
