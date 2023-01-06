@@ -1,20 +1,23 @@
-#so ta funcionando no pycharm
 from time import sleep
 from modularizacao import *
 from utilizando_arq import *
+arq = 'cursos.txt'
 
-if not arqExiste('cursos.txt'):
-    criarArq('cursos.txt')
+if not arqExiste(arq):
+    criarArq(arq)
 
 while True:
     resp = menu(['ver clientes cadastrados', 'cadastrar novo cliente', 'sair do programa'])
     if resp == 1:
-        lerArq('cursos.txt')
+        lerArq(arq)
     elif resp == 2:
-        cabecalho('OPCAO 2')
+        cabecalho('NOVO CADASTRO')
+        nome = str(input('NOME: '))
+        idd = leiaInt('IDADE: ')
+        cadastrar(arq, nome, idd)
     elif resp == 3:
         sair()
         break
     else: 
         print('\033[31mErro: Digite um opcao valida!\033[m')
-        sleep(2)
+    sleep(1.2)

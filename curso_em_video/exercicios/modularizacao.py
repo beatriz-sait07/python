@@ -79,15 +79,6 @@ def cabecalho(txt):
     print(txt.center(40))
     print(linha())
 
-def ver_cad(pessoa):
-    print(linha())
-    print('OPCAO 1'.center(40))
-    print(linha())
-    
-def novo_cad(pessoa):
-    print(linha())
-    print('OPCAO 2'.center(40))
-    print(linha())
     
 def sair():
     print(linha())
