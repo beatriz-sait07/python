@@ -1,0 +1,10 @@
+sempre faça o passo a passo do que voce precisa fazer em portugues.
+
+*pandas*
+puxa os dados do banco de dados da pasta ou arquivo que voce direcionar
+
+-ao passar um caminho de arquivo no python, use o 'r' na frente para que ele possa entender que não é um caracter especial.
+
+
+-----------------comandos----------------------,
+display: print mais frufru 
