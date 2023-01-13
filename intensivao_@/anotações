@@ -5,6 +5,15 @@ puxa os dados do banco de dados da pasta ou arquivo que voce direcionar
 
 -ao passar um caminho de arquivo no python, use o 'r' na frente para que ele possa entender que não é um caracter especial.
 
+- em banco de dados, informacao que nao te ajuda, nao serve pra nada!
+    ou seja, apagua o que for desnecessario.
+
+
+grafico em python sao criados sempre me duas etapas:
+    1 vc cria
+    2 voce exibe
 
 -----------------comandos----------------------,
 display: print mais frufru 
+
+
