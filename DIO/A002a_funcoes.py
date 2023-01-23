@@ -22,7 +22,7 @@ print(f'usando DEF:  a=4, b=2\nsoma: {soma(4, 2)}\nsubtracao: {subt(4, 2)},\nmul
 
 
 class Calculadora:
-    def __init__(self, a, b):
+    def __init__(self, a=0, b=0):
         self.valor_a = a
         self.valor_b = b
     def soma1(self):
@@ -37,6 +37,7 @@ class Calculadora:
     def div1(self):
         return self.valor_a / self.valor_b
     
-print('\n\nusando CLASSE:    a=4, b=2')
-calculadora_main = Calculadora(4, 2)
-print(f'soma: {calculadora_main.soma1()}\nsubtracao: {calculadora_main.subt1()},\nmultiplicacao: {calculadora_main.mult1()}\ndivisao: {calculadora_main.div1()}')
+if __name__ == '__main__':
+    print('\n\nusando CLASSE:    a=4, b=2')
+    calculadora_main = Calculadora(4, 2)
+    print(f'soma: {calculadora_main.soma1()}\nsubtracao: {calculadora_main.subt1()},\nmultiplicacao: {calculadora_main.mult1()}\ndivisao: {calculadora_main.div1()}')
