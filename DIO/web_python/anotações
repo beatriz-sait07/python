@@ -1,0 +1,4 @@
+django admim.py:
+utilitario da linha de comando para tarefas de adm
+
+manage: delega tarefas para o django-admin e tbm e responsavel por colocar o pacote do projeto no sys.path
