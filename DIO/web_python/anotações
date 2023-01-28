@@ -2,3 +2,21 @@ django admim.py:
 utilitario da linha de comando para tarefas de adm
 
 manage: delega tarefas para o django-admin e tbm e responsavel por colocar o pacote do projeto no sys.path
+
+
+WSGI: plataforma de aplicação web -> interface....
+ele é um servidor para desenvolvimento
+
+SETTINGS: responsaveis pelas configurações do django
+
+URLS: é responsavel por gerenciar as rotas da view
+
+VIEWS: processa e retorna uma resposta para o cliente
+
+MODELS: define o modelo de dados inteiramente em python
+
+ADMIN: interface administrativa gerada automaticamente pelo django
+
+STATIC: responsagel por armazenar os arquivos estaticos, como: JS, CSS, imagens
+
+TEMPLETES: responsavel por armazenar arquivos HTML
