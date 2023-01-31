@@ -1,2 +1,12 @@
 - migrate: puza a tabela de dados do django
 
+
+
+
+#### COMANDOS ####
+ 
+1 - python manage.py makemigrations nome_do_projeto
+    
+2 - python manage.py sqlmigratecore
+
+3 - python manage.py migrate core 0001 -> ver se um novo arq puxado do banco de dados esta funcionando.
