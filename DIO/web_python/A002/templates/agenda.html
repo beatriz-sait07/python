@@ -6,5 +6,11 @@
 </head>
 <body>
     <h2>agendamentos</h2>
+
+    <ul> 
+        {% for evento in eventos%} <!--{% =  voce puoxa comandos do pythons -->
+            <li> {{evento.titulo}} - {{evento.get_data_evento_criacao}} <li/>
+        {% endfor %}
+    </ul>
 </body>
 </html>

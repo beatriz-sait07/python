@@ -16,6 +16,8 @@ class Eventos(models.Model):
     def __str__(self):
         return self.titulo
     
+    def get_data_criacao(self):
+        return self.data_evento.strftime('%d/%m/%Y - %H:%M Hr') #mudando o formato da data que esta dentro do html
     
     '''     FUNCOES PARA MIGRAR A TABELA NO DJANGO
     ***obs:  cada migracao ira criar um novo arquiva, entao tenta sempre fazer a migração dos dados
