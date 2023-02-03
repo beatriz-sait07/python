@@ -1,5 +1,4 @@
-
-"""A002 URL Configuration
+"""agenda URL Configuration
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/2.1/topics/http/urls/
 Examples:
@@ -19,7 +18,9 @@ from core import views
 from django.views.generic import RedirectView
 
 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('agenda/', views.lista_eventos),
+
 ]

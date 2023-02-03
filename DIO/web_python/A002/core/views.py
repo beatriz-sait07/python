@@ -8,4 +8,4 @@ def lista_eventos(request):
     evento = Eventos.objects.filter(usuario=usuario) #.get(seleciona o que deseja)
     # .all() aparece todos os eventos de todos usuarios
     dados = {'eventos': evento}
-    return render('agenda.html', request, dados)
+    return render(request, 'agenda.html', dados)
