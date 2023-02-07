@@ -11,4 +11,6 @@
 
 3 - python manage.py migrate core 0001 -> ver se um novo arq puxado do banco de dados esta funcionando.
 
+4 - python manage.py createsuperuser --username nome_do_usuario   -> criar um super usuario
+
 REFAZER TODO O PROCESSO DE DADOS
