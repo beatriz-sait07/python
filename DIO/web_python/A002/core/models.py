@@ -8,4 +8,5 @@ class Evento(models.Model):
     data_evento = models.DateTimeField()
     data_criacao = models.DateTimeField(auto_now=True) #feito para que o usuario nao modifique o mesmo, e ele eh gerado no momento da criacao do evento
     
-    
+    class Meta:
+        db_table = 'evento'
