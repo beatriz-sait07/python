@@ -10,3 +10,6 @@ class Evento(models.Model):
     
     class Meta:
         db_table = 'evento'
+        
+    def __str__(self):
+        return self.titulo
