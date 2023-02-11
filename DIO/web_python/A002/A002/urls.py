@@ -16,8 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from core import views
+from django.views.generic import RedirectView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('agenda/', views.lista_eventos)
+    path('agenda/', views.lista_eventos),
+    #path('', views.index) modelo 1 de redirecionamento, feito no models
+    path('', RedirectView.as_view(url='/agenda/')) #melor metodo
 ]
