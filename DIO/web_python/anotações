@@ -1,5 +1,7 @@
-- migrate: puza a tabela de dados do django
-
+- migrate: puxa a tabela de dados do django
+- djnago.contrib.auto: puxa dados de autenticação como (login e senhas/lofout)
+        -login_required: verifica se o usuário está ativo
+- decoradore: funções criadas por outras funções
 
 
 
