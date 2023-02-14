@@ -1,5 +1,7 @@
 from django.shortcuts import render, redirect
 from core.models import Evento
+from django.contrib.auth.decorators import login_required
+from django.contrib.auth import 
 
 # Create your views here.
 
@@ -8,6 +10,19 @@ modelo 1, modelo 2 fica na views
 def index(request):
     return redirect('/agenda/')  #mode de redirecionamento caso voce tenha um parameto de url/index vazio
 '''
+
+def login_user(request):
+    return render(request, 'login.html')
+
+def submit_login(request):
+    if request.POST:
+        username = request.POST.get('username')
+        password = request.POST.get('password')
+    else:
+        redirect('/')
+
+@login_required(login_url='/login/') #se voce nao estiver autenticado, ele não liverarpa a agenda
+    
 def lista_eventos(request):
     #evento = Evento.objects.get(id=1) --> busca apenas um elemento 'aquele que foi requesitado'
     usuario = request.user
