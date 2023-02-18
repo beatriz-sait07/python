@@ -36,3 +36,6 @@ def lista_eventos(request):
     evento = Evento.objects.filter(usuario=usuario) # filta na pagina html a aparecer apenas os dados do usuario que esta logado no momento
     response = {'eventos': evento}
     return render(request, 'agenda.html', response) #renderizar a pagina html
+
+
+# parei no 22:09
