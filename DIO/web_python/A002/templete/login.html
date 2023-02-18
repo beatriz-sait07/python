@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>LOGIN</h1>
-    <form action="submit" mothod="POST">
+    <form action="submit" mothod="POST"> {% csrf_token %}
         <div align="center">
             <label>usuario:</label>
             <input type="text" name="Username">
