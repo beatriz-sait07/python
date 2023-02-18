@@ -24,5 +24,5 @@ urlpatterns = [
     #path('', views.index) modelo 1 de redirecionamento, feito no models
     path('', RedirectView.as_view(url='/agenda/')), #melor metodo
     path('login/', views.login_user),
-    path('login/submit/', views.submit_login),
+    path('login/submit', views.submit_login),
 ]
