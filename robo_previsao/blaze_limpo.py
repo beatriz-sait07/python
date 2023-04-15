@@ -1,20 +1,5 @@
-# api blaze:  https://blaze.com/api/roulette_games/...
-
-'''
-ROBO QUE VAI ATE GALE 2!!
-
-cores:
-0 -> branco
-1 -> vermelho
-2 -> preto
-1 a 7 -> vermelhos
-8 14 -> pretos
-'''
-
 import requests
 from tkinter import *
-
-#requisicao = requests.get('https://blaze.com/api/roulette_games/recent').json()
 
 def busca_giros():
     giros = [[item['color'], item['roll']] for item in requests.get('https://blaze.com/api/roulette_games/recent').json()][:5][::-1]
@@ -31,10 +16,6 @@ def return_color(giros):
             info.append(['white', '#FFDAB9', elemento[1]])
     return info
 
-def atualizar_com_atraso():
-    tela.after(1000, atualizar)
-
-            
 def atualizar():
     dados_blaze = busca_giros()
     inf = return_color(dados_blaze)
@@ -58,7 +39,6 @@ def atualizar():
         
     prev = Label(height=2, width=96, bg=color_p)
     prev.grid(row=3, column=0, columnspan=5)
-    #tela.after(1000, atualizar)
     
 
 tela = Tk()
