@@ -49,6 +49,17 @@ def atualizar():
     num2['bg'] = inf[2][0]
     num3['bg'] = inf[3][0]
     num4['bg'] = inf[4][0]
+    
+    #previsao sera feita atraves da suposicao que a soma dos valores sera par ou impar e a partir disto faremos a previsao se ele sera preto ou vermelho
+    
+    color_p = ''
+    if sum([num[1] for num in dados_blaze]) % 2 == 0:
+        color_p = 'black'
+    else:
+        color_p = 'red'
+        
+    prev = Label(height=2, width=96, bg=color_p)
+    prev.grid(row=3, column=0, columnspan=5)
 
 tela = Tk() #cria a tela
 tela.resizable(False, False) #tela nao pode ser redimensionada
