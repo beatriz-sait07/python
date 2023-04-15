@@ -26,7 +26,7 @@ def submit_login(request):
     else:
         redirect('/')
 
-@login_required(login_url='/login/') #se voce nao estiver autenticado, ele não liverarpa a agenda
+@login_required(login_url='login/') #se voce nao estiver autenticado, ele não liverarpa a agenda
     
 def lista_eventos(request):
     #evento = Evento.objects.get(id=1) --> busca apenas um elemento 'aquele que foi requesitado'
