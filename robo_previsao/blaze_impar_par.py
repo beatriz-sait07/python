@@ -1,6 +1,7 @@
 import requests
 from tkinter import *
 
+
 def busca_giros():
     giros = [[item['color'], item['roll']] for item in requests.get('https://blaze.com/api/roulette_games/recent').json()][:5][::-1]
     return giros
