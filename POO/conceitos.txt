@@ -1,0 +1,39 @@
+abstração: representação de uma entidade a qual inclui apenas os atributos, exemplo:
+entidade: passaro
+atributos/abstração(adjetivos): asas, bico, penas, etc. 
+tipos de abstração:
+processos: nao importa como é feito, apenas é feito.
+em garal você chama apenas a funcao e o que els faz.
+ex: um passaro voa, nao importa como ele voa, basta apenas voar.
+abstracap de dados: é chamado de tipo, exemplo: string -> abstração de uma palavra, int/float/double -> abstração de um numero, lista/tuplas/dicionarios -> abstrações de coleções de dados.
+
+tipos definidos: são os tipos que você define, exemplo: classe, struct, enum, etc.
+
+classes(dicionarios): conjunto de atributos que tem a mesma função.
+
+class Passaro:
+    asas = 2
+    bico = 1
+
+métodos: sao abstrações de processos, ou seja, funções que pertencem a uma classe. ele manipula os estados de um objeto(self, cls).
+
+class Passaro:
+    def voar(self):  
+        print('voando')
+    
+
+instancia: é um objeto criado a partir de uma classe. personifica uma classe.
+
+resumindo:
+
+class Passaro: -> classe
+    estado = 'indefinido' -> atributo
+
+    def voar(self): -> metodo
+        print('voando')
+    def pousar(self): -> metodo
+        print('pousando')
+
+        
+p1 = Passaro() -> instancia
+p2 = Passaro() -> instancia
